@@ -23,7 +23,7 @@ parser = argparse.ArgumentParser(description='This is script is to be used over 
 parser.add_argument("-v", "--verbose", help="Increase output verbosity", action="store_true")
 parser.add_argument('-k','--keyboard-layout',
     help="The keyboard layout to be set('us','fr', etc...), default: %s" % DEFAULT_LAYOUT,
-    default=DEFAULT_LAYOUT
+    default=DEFAULT_LAYOUT,
     type=str)
 args = parser.parse_args()
 

@@ -1,0 +1,38 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="onfirstboot" id="onfirstboot" x="48" y="8">
+    <next>
+      <block type="wifisetup" id="dU`-C~106T5:PJj?},q4">
+          <field name="1">network-name</field>
+          <field name="2">network-password</field>
+          <field name="3">WPA/WPA2</field>
+          <next>
+            <block type="runcommand" id="M0uN^nSB2ARRA,-/*ZYz">
+              <field name="1">git clone https://github.com/fejao/pibakery-scripts.git</field>
+              <field name="2">pi</field>
+              <next>
+                <block type="runpython" id="FB,18Fl:g^BHn.:rGb%s">
+                  <field name="1">/home/pi/pibakery-scripts/timezone.py</field>
+                  <field name="2">root</field>
+                  <next>
+                    <block type="runpython" id="O[mbg2#bcCRN{XF2nHEV">
+                      <field name="1">/home/pi/pibakery-scripts/keyboard.py</field>
+                      <field name="2">root</field>
+                      <next>
+                        <block type="deletefile" id="-6faXU]cSy*Z+yEZ!:0s">
+                          <field name="1">/home/pi/pibakery-scripts/</field>
+                          <next>
+                            <block type="reboot" id="c-i9s:2gy)%7GBQT%^~{">
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+      </block>
+    </next>
+  </block>
+</xml>

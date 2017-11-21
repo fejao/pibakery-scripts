@@ -8,10 +8,8 @@ DEFAULT_LAYOUT = "Europe/Berlin"
 
 def __main__(args):
 
-    # import pdb; pdb.set_trace()
-
     # /etc/timezone
-    with open('./wtf', 'r+') as f:
+    with open('/etc/timezone', 'r+') as f:
         text = f.read()
         f.seek(0)
         f.write(args.timezone)

@@ -1,5 +1,13 @@
+<!-- For ruby
+[![Inline docs](http://inch-ci.org/github/fejao/pibakery-scripts.svg?branch=master)](http://inch-ci.org/github/fejao/pibakery-scripts)
+-->
+[![License GLP3](https://img.shields.io/badge/license-GPL3-red.svg)](LICENSE.md)
+[![HitCount](http://hits.dwyl.com/fejao/pibakery-scripts.svg)](http://hits.dwyl.com/fejao/pibakery-scripts)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/fejao/pibakery-scripts/issues)
+
 pibakery-scripts
 ===============
+
 Some scripts to run in [PiBakery](https://github.com/davidferguson/pibakery)
 _____________________________________________
 # 1- Using
